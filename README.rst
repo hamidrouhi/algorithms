@@ -16,12 +16,14 @@ Algorithms implemented so far:
 - Bubble Sort
 - Cocktail Sort
 - Comb Sort
+- Freq Sort
 - Heap Sort
 - Insertion Sort
 - Merge Sort
 - Quick Sort
 - Selection Sort
 - Shell Sort
+
 
 **Searching:**
 
