@@ -1,7 +1,7 @@
 import random
 import unittest
-from ..sorting import bubble_sort, selection_sort, insertion_sort, \
-    merge_sort, quick_sort, heap_sort, shell_sort, comb_sort, cocktail_sort
+from algorithms.sorting import bubble_sort, selection_sort, insertion_sort, \
+    merge_sort, quick_sort, heap_sort, shell_sort, comb_sort, cocktail_sort,freq_sort
 
 
 class SortingAlgorithmTestCase(unittest.TestCase):
@@ -111,3 +111,14 @@ class TestCocktailSort(SortingAlgorithmTestCase):
     def test_cocktailsort(self):
         self.output = cocktail_sort.sort(self.input)
         self.assertEqual(self.correct, self.output)
+
+
+class TestFreqSort(SortingAlgorithmTestCase):
+	"""
+	Tests Cocktail sort on a small range from 0-9
+	"""
+	def test_freq_sort(self):
+		self.output = freq_sort.sort(self.input)
+		self.assertEqual(self.correct,self.output)
+
+	

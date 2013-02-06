@@ -11,7 +11,7 @@
 '''
 __version__= '1.0.0'
 
-def heap_gen(Data):
+def sort(Data):
 
 	global tree,parent
 	tree=list(Data)
