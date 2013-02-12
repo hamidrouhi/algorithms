@@ -9,6 +9,9 @@ I used psuedo code from various sources and I have listed them as references in 
 
 Algorithms implemented so far:
 ------------------------------
+**Coding:**
+
+-Huffman Coding
 
 **Sorting:**
 
@@ -23,10 +26,6 @@ Algorithms implemented so far:
 - Quick Sort
 - Selection Sort
 - Shell Sort
-
-**Coding:**
-
--Huffman Coding
 
 **Searching:**
 
