@@ -24,6 +24,9 @@ Algorithms implemented so far:
 - Selection Sort
 - Shell Sort
 
+**Coding:**
+
+-Huffman Coding
 
 **Searching:**
 
