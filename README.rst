@@ -11,7 +11,7 @@ Algorithms implemented so far:
 ------------------------------
 **Coding:**
 
--Huffman Coding
+- Huffman Coding
 
 **Sorting:**
 
