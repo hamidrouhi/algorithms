@@ -8,7 +8,7 @@
 
 '''generate heap''' 
 def heap_gen(Data):
-	global tree,parent
+	
 	tree=list(Data)
 	while len(tree)>1:
 		LCh=min(tree)
@@ -40,13 +40,13 @@ def encode(huffhep):
 
 '''main func'''
 def huffman(DATA):	
-	global string,keys
+	
 	string = DATA
 	keys=[]
 	get_CharCount(string)
 	
 def get_CharCount(string):
-	global charCount,huffheap
+	
 	charCount = {}
 	huffheap=[]
 	for char in string:
