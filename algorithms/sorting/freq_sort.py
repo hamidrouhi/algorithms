@@ -23,4 +23,3 @@ def sort(Data):
 		parent = (LeftChildIndex[0] + RightChildIndex[0], LeftChild, RightChild)
 		tree.append(parent)
 	return tree[0]
-
