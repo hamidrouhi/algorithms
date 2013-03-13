@@ -14,15 +14,15 @@ for more information http://en.wikipedia.org/wiki/Huffman_coding
 def heap_gen(Data):  # generate heap
 	tree = list(Data)
 	while len(tree) > 1:
-		LCh = min(tree)
-		index = tree.index(LCh)
-		LChL = list(tree[index])
+		LeftChild = min(tree)
+		index = tree.index(LeftChild)
+		LeftChildList = list(tree[index])
 		del tree[index]
-		RCh = min(tree)
-		index = tree.index(RCh)
-		RChL = list(RCh)
+		RightChild = min(tree)
+		index = tree.index(RightChild)
+		RightChildList = list(RightChild)
 		del tree[index]
-		parent = (LChL[0] + RChL[0], LCh, RCh)
+		parent = (LeftChildList[0] + RightChildList[0], LeftChild, RightChild)
 		tree.append(parent)
 	return tree[0]
 
