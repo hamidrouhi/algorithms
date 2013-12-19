@@ -11,7 +11,7 @@ for more information http://en.wikipedia.org/wiki/Huffman_coding
 '''
 
 
-def heap_gen(Data):  # generate heap (data example:
+def heap_gen(Data):  # generate heap
 	tree = list(Data)
 	while len(tree) > 1:
 		LeftChild = min(tree)
