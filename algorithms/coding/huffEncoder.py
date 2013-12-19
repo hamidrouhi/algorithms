@@ -11,7 +11,7 @@ for more information http://en.wikipedia.org/wiki/Huffman_coding
 '''
 
 
-def heap_gen(Data):  # generate heap
+def heap_gen(Data):  # generate heap (data example:
 	tree = list(Data)
 	while len(tree) > 1:
 		LeftChild = min(tree)
@@ -41,12 +41,6 @@ def encode(huffhep):  # generate huffman Code
 	codes()
 
 
-def huffman(DATA):  # main func
-	string = DATA
-	keys = []
-	get_CharCount(string)
-
-
 def get_CharCount(string):
 	charCount = {}
 	huffheap = []
@@ -69,3 +63,9 @@ def codes():
 	for i in string:
 		huffcode = huffcode + str(code[i])
 	print huffcode
+
+
+def huffman(DATA):  # main func
+	string = DATA
+	keys = []
+	get_CharCount(string)
